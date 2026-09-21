@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main() {
+void check() {
     int number;
 
     std::cout << "Enter a number: ";
@@ -12,5 +12,4 @@ int main() {
         std::cout << "Odd";
     }
 
-    return 0;
 }
